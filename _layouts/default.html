@@ -7,9 +7,9 @@
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
         <link href="https://www.googletagmanager.com" rel="preconnect"/>
         <link href="{{ page.url | absolute_url }}" rel="canonical"/>
-        <link href="{{ "/feed.xml" | absolute_url l}}?v={{ site.version }}/" rel="alternate" title="{{ site.title }}" type="application/rss+xml"/>
-        <link href="{{ "/favicon.ico" | absolute_url l}}?v={{ site.version }}" rel="shortcut icon"/>
-        <link href="{{ "/styles.css" | absolute_url l}}?v={{ site.version }}" rel="stylesheet"/>
+        <link href="{{ "/feed.xml" | absolute_url }}?v={{ site.version }}/" rel="alternate" title="{{ site.title }}" type="application/rss+xml"/>
+        <link href="{{ "/favicon.ico" | absolute_url }}?v={{ site.version }}" rel="shortcut icon"/>
+        <link href="{{ "/styles.css" | absolute_url }}?v={{ site.version }}" rel="stylesheet"/>
         <link href="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.css" rel="stylesheet" type="text/css"/>
         <meta content="summary_large_image" name="twitter:card"/>
         <meta content="@RocketChat" name="twitter:site"/>
@@ -32,15 +32,15 @@
         {% include gtm/body.html %}
         <script src="/jquery.js"></script>
         {{ content }}
-        <script src="{{ "/main.js" | absolute_url l}}"></script>
-        <script src="{{ "/forms.js" | absolute_url l}}"></script>
-        <script src="{{ "/redirect.js" | absolute_url l}}"></script>
+        <script src="{{ "/main.js" | absolute_url }}"></script>
+        <script src="{{ "/forms.js" | absolute_url }}"></script>
+        <script src="{{ "/redirect.js" | absolute_url }}"></script>
         <script charset="utf-8" src="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.js" type="text/javascript"></script>
         <script defer="" src="//www.google.com/recaptcha/api.js"></script>
         <!--[if IE]>
-          <script src="{{ "/polyfill/modernizr.js" | absolute_url l}}" />
-          <script src="{{ "/polyfill/respond.min.js" | absolute_url l}}" />
-          <script src="{{ "/polyfill/calc.min.js" | absolute_url l}}" />
+          <script src="{{ "/polyfill/modernizr.js" | absolute_url }}" />
+          <script src="{{ "/polyfill/respond.min.js" | absolute_url }}" />
+          <script src="{{ "/polyfill/calc.min.js" | absolute_url }}" />
         <![endif]-->
     </body>
 </html>
